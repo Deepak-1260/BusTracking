@@ -1,0 +1,28 @@
+.picks {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }

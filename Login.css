@@ -1,0 +1,80 @@
+/* Header.css */
+
+.header {
+    text-align: center;
+    background-color:#fff ; /* Adjust the background color as needed */
+    color: #2196F3; /* Adjust the text color as needed */
+    padding: 15px; /* Adjust the padding as needed */
+    margin-bottom: 20px;
+    height: 65px; /* Adjust the height as needed */
+}
+
+h1 {
+    margin: 0;
+}
+h5 {
+    margin-bottom: 3px;
+}
+
+/* Login.css 
+body {
+    background-color: #969494; 
+}
+*/
+
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff; /* Set the background color for your login container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 400px;
+    border-width: 2px;
+    border-color: red; /* Change the color to your desired color */
+}
+
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 35px; /* Adjust the size of the icons as needed */
+    margin-right: 10px;
+}
+
+.busimage{
+    width: 400px;
+    height :180px;
+}
+
+
+
+.input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 5px; /* Add margin to the buttons */
+}
+
+button:hover {
+    background-color: #45a049;
+}
